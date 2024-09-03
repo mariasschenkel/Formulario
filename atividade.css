@@ -1,0 +1,97 @@
+input{
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+textarea{
+    border-radius: 10px;
+}
+
+body{
+    background-color: #6f03a1;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 328px;
+    margin-left: 20%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+form div{
+    margin-bottom: 8px;
+}
+.quadrado{
+    background-color: rgb(151, 111, 237);
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+label{
+    font-size: 13px;
+    position: relative;
+    width: 75px;
+    display: block;
+    float: left;
+}
+ul li{
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+}
+.carac{
+    position: relative;
+    top: -262px;
+    left: 317px;
+}
+.carac2{
+    position: relative;
+    left: 166px;
+    top: -245px;
+}
+.aceita{
+    position: relative;
+    top: -257px;
+    left: 317px;
+    width: 150px;
+}
+.aceita2{
+    position: relative;
+    top: -225px;
+    left: 290px;
+}
+.bottom{
+    position: relative;
+    top: -238px;
+    left: 565px;
+}
+.comida{
+    position: relative;
+    top:  22px;
+    left: 0px;
+    width: 92px;
+}
+.comida2{
+    position: relative;
+    top: 50px;
+    left: -22px;
+    width: 150px;
+}
+.labelc{
+    width: 151px;
+}
+.hamburguer{
+    position: relative;
+    left: -52px;
+}
+.sim{
+    position: relative;
+    left: -110px;
+}
+fieldset{
+    position: relative;
+    display: block;
+    height: 306px;
+}
+

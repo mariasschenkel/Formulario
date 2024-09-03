@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Cadastro pessoal</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome"> <br>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="E-mail" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+            <div>
+                <label for="datanascimento">Data Nascimento:</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <div>
+                <label class="comida" for="comida">Comida Favorita:</label>
+                <ul class="comida2">
+                    <li class="hamburguer"><input type="checkbox" name="comida[]" id="" value="hamburguer">Hamburguer</li>
+                    <li><input type="checkbox" name="comida[]" id="" value="Pizza">Pizza</li>
+                    <li><input type="checkbox" name="comida[]" id="" value="Sushi">Sushi</li>
+                    <li><input type="checkbox" name="comida[]" id="" value="Cachorro Quente">Cachorro Quente</li>
+                    <li><input type="checkbox" name="comida[]" id="" value="Xis">Xis</li>
+                </ul>
+            </div>
+            <div class="carac">
+                <label class="labelc" for="caracteristicas">Descreva suas caracteristicas</label>
+            </div>
+            <div class="carac2">
+                <textarea name="caracteristicas" id="" cols="40" rows="10"></textarea>
+            </div>
+            <div>
+                <label class="aceita" for="aceitar">Aceita termos de cadastro:</label>
+                <ul class="aceita2">
+                    <li class="sim"><input type="radio" name="aceitar" id="aceita">Sim</li>
+                    <li><input type="radio" name="aceitar" id="nao aceita">Não</li>
+                </ul>
+            </div>
+            <div>
+                <input class="bottom" type="submit" value="cadastrar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
